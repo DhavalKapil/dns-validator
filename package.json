@@ -12,7 +12,8 @@
 	"license": "MIT",
 	"dependencies": {
 		"pcap": "*",
-		"commander": "*"
+		"commander": "*",
+		"underscore": "*"
 	}
 }
 
