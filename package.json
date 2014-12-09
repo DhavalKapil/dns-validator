@@ -13,7 +13,9 @@
 	"dependencies": {
 		"pcap": "*",
 		"commander": "*",
-		"underscore": "*"
+		"request": "",
+		"underscore": "*",
+		"cheerio": "*"
 	}
 }
 
