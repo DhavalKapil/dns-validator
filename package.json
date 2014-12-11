@@ -16,7 +16,8 @@
 		"request": "",
 		"underscore": "*",
 		"cheerio": "*",
-		"daemonize2": "*"
+		"daemonize2": "*",
+		"node-notifier": "*"
 	}
 }
 
