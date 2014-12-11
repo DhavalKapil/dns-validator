@@ -12,10 +12,11 @@
 	"license": "MIT",
 	"dependencies": {
 		"pcap": "*",
-		"commander": "*",
+		"argv": "*",
 		"request": "",
 		"underscore": "*",
-		"cheerio": "*"
+		"cheerio": "*",
+		"daemonize2": "*"
 	}
 }
 
