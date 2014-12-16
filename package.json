@@ -1,5 +1,5 @@
 {
-	"name": "dns",
+	"name": "dns-validator",
 	"version": "0.0.1",
 	"description": "Security tool to detect dns poisoning attacks",
 	"keywords": [
