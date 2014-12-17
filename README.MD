@@ -67,12 +67,11 @@ global options:
 
 	--help, -h
 		Displays help information about this script
-		'ctrl.js -h' or 'ctrl.js --help'
+		'dns-validator -h' or 'dns-validator --help'
 
 	--version
 		Displays version info
-		ctrl.js --version
-
+		dns-validator --version
 ```
 
 ## Dependencies
