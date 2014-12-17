@@ -4,11 +4,11 @@
 
 ## Features:
 
- - Watches the transfer of all DNS packets
- - Matches the request with their responses
- - Notifies in case their `question` header does not matche
+ - Watches over the transfer of all DNS packets
+ - Matches every request with it's response
+ - Notifies in case both their `question` header do not match
  - Notifies if any stray packet arrives without a request
- - Gets the IP list for domains through an external service
+ - Gets the IP list for domains requested through an external service
  - Notifies if they don't match the ones in response packets
  - In built cache for speed improvements
  - Runs as daemon process without interfering with normal traffic
