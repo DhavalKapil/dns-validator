@@ -12,14 +12,17 @@ switch (args.params.command) {
 	case 'start': 
 		daemon.start();
 		break;
+
 	case 'stop': 
 		daemon.stop();
 		break;
+
 	case 'restart': 
 		daemon.stop(function(err) {
 			daemon.start();
 		});
 		break;
+
 	case 'status':
 		var pid = daemon.status();
 		if (pid) {
@@ -29,6 +32,9 @@ switch (args.params.command) {
 			console.log(CONST.NAME + ' daemon not running.');
 		}
 		break;
+		
+	default: 
+		args.help();
 }
 
 process.on('uncaughtException', function(err) {
