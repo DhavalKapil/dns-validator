@@ -49,19 +49,16 @@ actions:
 
 		options:
 			--log, -l
-				generate logs in external file
+				generate logs in external file (absolute path)
 				dns-validator start -l log_file or --log=log_file
 
 			--verbose, -v
 				verbose detailed steps in log file
 				dns-validator start -l log_file --verbose|-v
 
-
 	stop		stop dns-validator
 
-
 	restart		restart dns-validator
-
 
 	status		Get the status of dns-validator
 

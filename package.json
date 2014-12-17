@@ -1,6 +1,6 @@
 {
 	"name": "dns-validator",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Security tool to detect dns poisoning attacks",
 	"keywords": [
 		"dns",
@@ -9,7 +9,16 @@
 		"security",
 		"network"
 	],
+	"bugs": "https://github.com/DhavalKapil/dns-validator/issues",
+	"author": "Dhaval Kapil <me@dhavalkapil.com> (https://dhavalkapil.com/)",
 	"license": "MIT",
+	"bin": {
+		"dns-validator": "./bin/dns-validator"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DhavalKapil/dns-validator.git"
+	},
 	"dependencies": {
 		"pcap": "*",
 		"argv": "*",
@@ -18,6 +27,10 @@
 		"cheerio": "*",
 		"daemonize2": "*",
 		"node-notifier": "*"
-	}
+	},
+	"engines": {
+		"node": ">=0.10.25"
+	},
+	"preferGlobal": true
 }
 
